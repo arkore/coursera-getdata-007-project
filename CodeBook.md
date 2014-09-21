@@ -1,6 +1,7 @@
 Coursera Getting and Cleaning Data Project Codebook
 ===================================================
 The following data processing script and resultant output dataset is derived from the following publication:
+
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 From the original code book provided with the original data:
@@ -27,9 +28,8 @@ Each feature has been averaged over all recorded observations for a given activi
 
 Where the variables enclosed in [] represent the different options present in the dataset. Note that the .[X|Y|Z] is omitted when the parameter described does not have a Euclidean direction. Further information is provided below:
 
-t - Variable is averaged over the time domain
-
-f - Variable is averaged over the frequency domain by applying a FFT to the time domain data
+* t - Variable is averaged over the time domain
+* f - Variable is averaged over the frequency domain by applying a FFT to the time domain data
 
 Paramcode [units]
 -----------------------
@@ -43,14 +43,9 @@ The following values can either be their X,Y,Z components (where it is followed 
 
 All units given are only indicative as the original data has been normalized and bounded between [-1,1].
 
+* mean - Original variable is the mean of the recorded data slice
+* std - Original variable is the standard deviation of the recorded data slice
 
-mean - Original variable is the mean of the recorded data slice
-
-std - Original variable is the standard deviation of the recorded data slice
-
-
-X - Parameter was recorded on the Euclidean X axis
-
-Y - Parameter was recorded on the Euclidean Y axis
-
-Z - Parameter was recorded on the Euclidean Z axis
+* X - Parameter was recorded on the Euclidean X axis
+* Y - Parameter was recorded on the Euclidean Y axis
+* Z - Parameter was recorded on the Euclidean Z axis
