@@ -16,4 +16,5 @@ The next stage of the script reads in the raw data from the training and test se
 Having completed part 1,2 and 4 the complete dataset is then summarized as required by part 5. The resulting dataframe is then sorted for asthetic reasons and the activity descriptor is transformed from a number to a meaningful string to satisfy part 3. The final tidy dataset is then written out to a file finishing the final requirement of part 5.
 
 The written out table can be re-read into R using the following command:
+
     tidydata <- read.table("tidydata.txt",header=TRUE)
