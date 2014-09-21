@@ -28,6 +28,7 @@ Each feature has been averaged over all recorded observations for a given activi
 Where the variables enclosed in [] represent the different options present in the dataset. Note that the .[X|Y|Z] is omitted when the parameter described does not have a Euclidean direction. Further information is provided below:
 
 t - Variable is averaged over the time domain
+
 f - Variable is averaged over the frequency domain by applying a FFT to the time domain data
 
 Paramcode [units]
@@ -42,9 +43,14 @@ The following values can either be their X,Y,Z components (where it is followed 
 
 All units given are only indicative as the original data has been normalized and bounded between [-1,1].
 
+
 mean - Original variable is the mean of the recorded data slice
+
 std - Original variable is the standard deviation of the recorded data slice
 
+
 X - Parameter was recorded on the Euclidean X axis
+
 Y - Parameter was recorded on the Euclidean Y axis
+
 Z - Parameter was recorded on the Euclidean Z axis
