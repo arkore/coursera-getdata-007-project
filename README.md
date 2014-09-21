@@ -14,3 +14,6 @@ The script achieves these required functions by first reading in a meaninful set
 The next stage of the script reads in the raw data from the training and test set, merging the subject number, the activity descriptor and the subsetted feature vector. When the dataset is subsetted using the logical vector to satisfy part 2, the tidy column names are applied to satisfy part 4. Once the raw data for the feature vector has been subsetted the remaining data is removed from the workspace to maintain a reasonable memory usage. With the entire data set for the test and training set now in memory in a tidy form they are then merged together to satify part 1.
 
 Having completed part 1,2 and 4 the complete dataset is then summarized as required by part 5. The resulting dataframe is then sorted for asthetic reasons and the activity descriptor is transformed from a number to a meaningful string to satisfy part 3. The final tidy dataset is then written out to a file finishing the final requirement of part 5.
+
+The written out table can be re-read into R using the following command:
+    tidydata <- read.table("tidydata.txt",header=TRUE)
